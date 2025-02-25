@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finanzas</title>
+    <link rel="stylesheet" href="../public/css/finanzas.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <main>
+        <h1>Finanzas</h1>
+
+        <!-- Gráfico de Finanzas -->
+        <canvas id="grafico-finanzas" width="400" height="400"></canvas>
+
+        <!-- Tabla de Finanzas -->
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Concepto</th>
+                    <th>Tipo</th>
+                    <th>Monto</th>
+                    <th>Fecha</th>
+                </tr>
+            </thead>
+            <tbody id="tabla-datos">
+                <!-- Aquí se cargarán los datos dinámicamente -->
+            </tbody>
+        </table>
+    </main>
+
+    <script src="../public/js/finanzas.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>
